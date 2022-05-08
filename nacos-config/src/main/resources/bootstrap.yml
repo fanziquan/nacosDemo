@@ -1,0 +1,14 @@
+server:
+  port: 3377
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+       ## group: FANZQ22858_GROUP
+        namespace: 43a2fe65-f9c5-4b17-982c-dbcc75c4392c
